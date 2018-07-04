@@ -57,11 +57,12 @@ nav {
 }
 nav h1 {
   margin: auto;
+	padding-top: 0.5em;
 }
 nav h1 a {
   color: #fff;
   font-size: 14pt;
-  font-weight: 200;
+  font-weight: 180;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -126,7 +127,8 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+	width: 43%;
+  max-width: 200px;
 }
 
 /* ====================== Restaurant Listing ====================== */
