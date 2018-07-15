@@ -196,9 +196,9 @@ getParameterByName = (name, url) => {
 
 /*** SERVICE WORKER ***/
 
-// navigator.serviceWorker.register('sw.js')
-// .then(function(reg) {
-//   console.log('Service worker registered, scope is: '+reg.scope);
-// }).catch(function(err) {
-//   console.log('!ERROR Service worker ERROR!'+ err);
-// });
+navigator.serviceWorker.register('/sw.js')
+.then(function(reg) {
+  console.log('Service worker registered, scope is: '+reg.scope);
+}).catch(function(err) {
+  console.log('!ERROR Service worker ERROR!'+ err);
+});
